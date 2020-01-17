@@ -420,6 +420,7 @@ body {
 
 .donate {
 	display: flex;
+	margin-bottom: 70px;
 
 	padding: 40px;
 	padding-top: 32px;
