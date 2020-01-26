@@ -107,17 +107,33 @@ $(document).ready(function() {
  	});
 
  	/*
-	 * Message "Copied!"
-	 */
-	 var btn_copy = $('.btn-copy');
-	 var timer_btn_copy;
+  * Message "Copied!"
+  */
+  var btn_copy = $('.btn-copy');
+  var timer_btn_copy;
 
-	 btn_copy.click(function() {
-	 	var current = this;
-	 	$(current).addClass('view');
-	 	clearTimeout(timer_btn_copy);
-	 	timer_btn_copy = setTimeout(function() {
-	 		$(current).removeClass('view');
-	 	}, 2000);
-	 });
+  btn_copy.click(function() {
+  	var current = this;
+  	$(current).addClass('view');
+  	clearTimeout(timer_btn_copy);
+  	timer_btn_copy = setTimeout(function() {
+  		$(current).removeClass('view');
+  	}, 2000);
+  });
+
+	/*
+  * Add field
+  */
+  var add_field = $('#account-option-support-bitamp');
+  add_field.click(function() {
+  	$(this).parent().addClass('hide');
+  });
+
+  /*
+  * Open mobile menu
+  */
+  var header_mob = $('.header-mob');
+  header_mob.click(function() {
+  	$(this).toggleClass('open');
+  });
 });

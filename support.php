@@ -4,7 +4,7 @@
 		<main class="main def-page support bg-cube">
 			<div class="container">
 				<div class="row">
-					<div class="def-page__content col-md-8 offset-md-2">
+					<div class="def-page__content col-lg-8 offset-lg-2">
 						<div class="def-page__title-wrap">
 							<h1 class="def-page__title def-page__title--icon">Support</h1>
 						</div>

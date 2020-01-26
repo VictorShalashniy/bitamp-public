@@ -4,7 +4,7 @@
 		<main class="main def-page home bg-cube active-tab-login">
 			<div class="container">
 				<div class="row">
-					<div class="home__first col-md-8 offset-md-2">
+					<div class="home__first col-lg-8 offset-lg-2">
 						<div class="def-page__title-wrap">
 							<ul class="home__title-tabs def-list-zero">
 								<li class="home__title-tab">
@@ -25,7 +25,7 @@
 								</li>
 								<li class="home__nav-item">
 									<button class="home__nav-btn">
-										<span class="home__nav-btn--new-wallet">Create New Wallet</span>
+										<span class="home__nav-btn--new-wallet">New Wallet</span>
 									</button>
 								</li>
 							</ul>
@@ -95,7 +95,7 @@
 												<option value="Hindi">Hindi</option>
 											</select>
 										</label>
-										<div class="form__label wrap-for-copy-print">
+										<div class="form__label wrap-for-copy-print form__label--mob-for-generate">
 											<div class="form__nav-options-wrap">
 												<label class="form__label-text" for="create-wallet-your-seed">Your Seed:</label>
 												<div class="form__nav-options">

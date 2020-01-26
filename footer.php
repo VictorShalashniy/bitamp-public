@@ -2,7 +2,7 @@
 			<div class="container">
 				<div class="footer__nav">
 					<div class="row">
-						<div class="col-lg-3">
+						<div class="col-lg-3 footer-mob__first">
 							<div class="footer__first">
 								<div class="footer__list-title">Network</div>
 								<ul class="footer__list def-list-zero">
@@ -30,7 +30,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 footer-mob__second">
 							<div class="footer__second">
 								<div class="footer__list-title">Resources</div>
 								<ul class="footer__list def-list-zero">
@@ -55,7 +55,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-3 footer-mob__third">
 							<div class="footer__third">
 								<div class="footer__list-title">Bitamp</div>
 								<ul class="footer__list def-list-zero">

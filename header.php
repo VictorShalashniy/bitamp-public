@@ -11,6 +11,18 @@
 </head>
 <body class="bg-cyan">
 	<div class="wrapper">
+		<div class="header-mob">
+			<div class="container">
+				<div class="header-mob__content row">
+					<div class="header__logo">
+						<a class="logo" href="#">
+							<img src="img/logo.svg" alt="Bitamp" width="130" height="29">
+						</a>
+					</div>
+					<button class="header-mob__btn active"><span></span></button>
+				</div>
+			</div>
+		</div>
 		<header class="header">
 			<div class="container">
 				<div class="header__content row">
@@ -18,7 +30,9 @@
 						<a class="logo" href="#">
 							<img src="img/logo.svg" alt="Bitamp" width="130" height="29">
 						</a>
-						<div class="header__info">
+					</div>
+					<div class="header__info">
+						<div class="header-mob__lang">
 							<div class="header__lang-switch switch">
 								<span class="current-lang current-switch">English</span>
 								<ul class="lang__list switch__list" style="overflow: hidden;">
@@ -60,26 +74,26 @@
 									</li>
 								</ul>
 							</div>
-							<div class="header__rate">1 BTC = <span class="current-rate">$7,618</span></div>
-							<div class="header__currency-switch switch">
-								<span class="current-currency current-switch">USD</span>
-								<ul class="currency__list switch__list" style="overflow: hidden;">
-									<li class="currency__item switch__item">
-										<a class="currency__option switch__option active" href="#">USD</a>
-									</li>
-									<li class="currency__item switch__item">
-										<a class="currency__option switch__option" href="#">EUR</a>
-									</li>
-									<li class="currency__item switch__item">
-										<a class="currency__option switch__option" href="#">RUB</a>
-									</li>
-									<li class="currency__item switch__item">
-										<a class="currency__option switch__option" href="#">BTC</a>
-									</li>
-								</ul>
-							</div>
-							<div class="header__rise-and-fall">+6.12%</div>
 						</div>
+						<div class="header__rate">1 BTC = <span class="current-rate">$7,618</span></div>
+						<div class="header__currency-switch switch">
+							<span class="current-currency current-switch">USD</span>
+							<ul class="currency__list switch__list" style="overflow: hidden;">
+								<li class="currency__item switch__item">
+									<a class="currency__option switch__option active" href="#">USD</a>
+								</li>
+								<li class="currency__item switch__item">
+									<a class="currency__option switch__option" href="#">EUR</a>
+								</li>
+								<li class="currency__item switch__item">
+									<a class="currency__option switch__option" href="#">RUB</a>
+								</li>
+								<li class="currency__item switch__item">
+									<a class="currency__option switch__option" href="#">BTC</a>
+								</li>
+							</ul>
+						</div>
+						<div class="header__rise-and-fall">+6.12%</div>
 					</div>
 					<div class="header__btns">
 						<a class="header__btn" href="#">Login</a>
@@ -88,3 +102,4 @@
 				</div>
 			</div>
 		</header>
+		<div class="header-mob__overlay"></div>
