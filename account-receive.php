@@ -1,7 +1,7 @@
 <?php
 	require_once 'header-account.php';
 ?>
-	<main class="main def-page account">
+	<main class="main def-page account account-receive">
 		<div class="container">
 			<div class="row">
 				<div class="account__block">
@@ -34,11 +34,12 @@
 								<textarea class="form__textarea form__textarea--description" name="create-wallet-confirm-your-seed" placeholder="What’s this transaction for?"></textarea>
 							</label>
 						</div>
-						<div class="account__right-col">
+						<div class="account__right-col account__mob-right-col">
 							<div class="account__receive-qr">
 								<img src="img/qrcode-300x300.png" alt="qr" width="300px" height="300">
 							</div>
 							<div class="wrap-for-copy account__wrap-for-copy">
+								<div class="form__label-text account__label-text">Copy Share Link</div>
 								<input class="form__text-input" value="3P7awoHBQvJSgRqYdmkoTBdrhiQtAeAZHf2" disabled>
 								<span class="btn-copy"></span>
 							</div>

@@ -4,6 +4,46 @@
 	<main class="main def-page account">
 		<div class="container">
 			<div class="row">
+				<div class="account__block--row">
+					<div class="account__block account__block--schedule">
+						<div class="account__top-wrap">
+							<div class="account__block-title">BTC Price Chart</div>
+							<ul class="stat__list def-list-zero">
+								<li class="stat__item">
+									<a class="stat__link active" href="#">All</a>
+								</li>
+								<li class="stat__item">
+									<a class="stat__link" href="#">Sent</a>
+								</li>
+								<li class="stat__item">
+									<a class="stat__link" href="#">Received</a>
+								</li>
+							</ul>
+						</div>
+						<div class="account__schedule">
+							<canvas id="price-сhart"></canvas>
+						</div>
+					</div>
+					<div class="account__block account__block--schedule">
+						<div class="account__top-wrap">
+							<div class="account__block-title">Your Balance</div>
+							<ul class="stat__list def-list-zero">
+								<li class="stat__item">
+									<a class="stat__link active" href="#">All</a>
+								</li>
+								<li class="stat__item">
+									<a class="stat__link" href="#">Sent</a>
+								</li>
+								<li class="stat__item">
+									<a class="stat__link" href="#">Received</a>
+								</li>
+							</ul>
+						</div>
+						<div class="account__schedule">
+							<canvas id="balance-сhart"></canvas>
+						</div>
+					</div>
+				</div>
 				<div class="account__block">
 					<div class="account__row">
 						<div class="account__input-wrap">

@@ -147,23 +147,20 @@
 							</div>
 						</div><!-- END stat__row -->
 					</div>
-					<button class="stat__btn">
-						<span>All transactions</span>
-					</button>
 					<div class="stat-nav">
-						<button class="stat-nav__show-more stat-nav__btn">Show more</button>
+						<button class="stat-nav__show-more stat__btn">Show more</button>
 						<div class="stat-nav__pages">
-							<button class="stat-nav__back stat-nav__btn">Back</button>
+							<button class="stat-nav__back stat__btn">Back</button>
 							<div class="stat-nav__pagination">
-								<button class="stat-nav__btn active">1</button>
-								<button class="stat-nav__btn">2</button>
-								<button class="stat-nav__btn">3</button>
-								<button class="stat-nav__btn">4</button>
-								<button class="stat-nav__btn">5</button>
-								<button class="stat-nav__btn">...</button>
-								<button class="stat-nav__btn">15</button>
+								<button class="stat__btn active">1</button>
+								<button class="stat__btn">2</button>
+								<button class="stat__btn">3</button>
+								<button class="stat__btn">4</button>
+								<button class="stat__btn">5</button>
+								<button class="stat__btn">...</button>
+								<button class="stat__btn">15</button>
 							</div>
-							<button class="stat-nav__next stat-nav__btn">Next</button>
+							<button class="stat-nav__next stat__btn">Next</button>
 						</div>
 					</div>
 				</div>

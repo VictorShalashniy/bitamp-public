@@ -55,7 +55,7 @@
 							</div>
 						</div>
 						<div class="form__label account__label-text">
-							<div class="form__label-text">Payment address (NOTE: this is not your wallet, this is the import fee wallet)</div>
+							<div class="form__label-text form__mob-label-text">Payment address (NOTE: this is not your wallet, this is the import fee wallet)</div>
 							<div class="wrap-for-copy account__wrap-for-copy">
 								<input class="form__text-input" value="44LbNqbmRCmEPxZYmwKw2hbga37svZsHPQ6hLAK4mtApPoWrbpTBiKo6jW452raUXW3M7qUq7yztuchsNYgwYj8S5KQKK43" disabled>
 								<span class="btn-copy"></span>
